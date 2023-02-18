@@ -1,0 +1,8 @@
+name = "jumpfile"
+
+[pathfiles.excel.apontamentos]
+name = "apontamentos"
+path = "D:\\apontamentos\\"
+description = "Gerar planilha Excel de Apontamentos para projetos/clientes"
+prefix = "xlsx" #Prefixo do arquivo
+filters = { "Cliente" = ["A", "B"] } #Coluna da planilha
